@@ -3,8 +3,8 @@ Esta aplicação relaciona-se diretamente com a criada no Desafio de Back-end pa
 
 <b> RODANDO O PROJETO </b><br />
 Para rodar o projeto, após a clonagem do repositório, deve-se ir até a raiz (orbita-frontend) e executar o comando <b>npm install</b>, responsável pela instalação de todas as dependências necessárias para a conexão com o banco de dados e requisições à API><br />
-Após as instalções serem finalizadas, o mesmo comando deverá ser executado agora na pasta /client, onde, então, serão instaladas as dependências necessárias ao front-end.<br />
-Para rodar o projeto, da mesma forma, deve-se encaminhar às mesmas pastas (raiz e /client) e executar o comando <b> npm start. A porta para o servidor vem setada como http://localhost:51581/ e, caso deseje alterá-la, as alterações devem ser feitas também no código, de forma que todos as requisições fucionem de maneira fluída.<br /><br />
+Após as instalações serem finalizadas, o mesmo comando deverá ser executado agora na pasta /client, onde, então, serão instaladas as dependências necessárias ao front-end.<br />
+Para rodar o projeto, da mesma forma, deve-se encaminhar às mesmas pastas (raiz e /client) e executar o comando <b> npm start</b>. A porta para o servidor vem setada como http://localhost:51581/ e, caso deseje alterá-la, as alterações devem ser feitas também no código, de forma que todos as requisições fucionem de maneira fluída.<br /><br />
 
 <b> NAVEGAÇÃO<b><br />
 A aplicação consiste em 3 páginas:<br />
