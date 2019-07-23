@@ -1,5 +1,25 @@
-<b> INFORMAÇOES GERAIS</b><br />
-Esta aplicação relaciona-se diretamente com a criada no Desafio de Back-end para a exibição de informações a respeito dos painéis solares e alteração de dados de usuários do sistema.<br />
+<b> INFORMAÇÕES GERAIS</b><br />
+Esta aplicação relaciona-se diretamente com a criada no Desafio de Back-end para a exibição de informações a respeito dos painéis solares e alteração de dados de usuários do sistema.<br /><br />
+
+
+<b>FERRAMENTAS</b><br />
+
+As seguintes ferramentas foram utilizadas na construção deste projeto:<br />
+<ol>
+  <li><b> Node.js </b> - Interpretador de código Javascript para construção de aplicações Web </li><br />
+  <li><b> Express </b> - Framework para Nodejs </li><br />
+  <li><b> JWT </b> - Gerador de token para autenticação do usuário no sistema </li><br />
+  <li><b> PostgreSql </b> - Banco de dados relacional utilizado </li><br />
+  <li><b> Nodemon </b> - Reinicia o servidor sempre que são feitas alterações </li><br />
+  <li><b> Bycripts </b> - Utilizado para encriptação de senha  </li><br />
+  <li><b> Prettier </b> - Dependência para estilização do código  </li><br />
+  <li><b> Recharts </b> - Dependência para criação do gráfico  </li><br />
+  <li><b> Bootstrap </b> - Framework para criação dos menus  </li><br />
+
+
+ </ol>
+<br /><br />
+
 
 <b> RODANDO O PROJETO </b><br />
 Para rodar o projeto, após a clonagem do repositório, deve-se ir até a raiz (orbita-frontend) e executar o comando <b>npm install</b>, responsável pela instalação de todas as dependências necessárias para a conexão com o banco de dados e requisições à API<br />
