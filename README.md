@@ -12,7 +12,7 @@ A aplicação consiste em 3 páginas:<br />
   <li><b>Cadastro</b>: O usuário deve, primeiramente, realizar um cadastro para poder acessar os dados do sistema. Caso todos os dados estejam corretos, após o cadastro, este é redirecionado para a página de login, onde deve informar novamente a senha e o e-mail.</li><br />
   <li><b>Login</b>:  O usuário informa sua senha e e-mail para, então ser redirecionado para a tela de dashboard. </li><br />
   <li><b>Dashboard</b>: Exibe informações correspondentes ao estado do usuário</li><br /><br />
-  </ul><br />
+  </ul>
 
 
   <b> DASHBOARD </b><br /><br />
@@ -51,7 +51,7 @@ No JSON passado, não foram encontrados valores para o ano de 2019. Dessa forma,
 O cálculo do número de instalações também foi prejudicado pois muitos registros possuíam o valor incorreto de -99999 como preço total do painel solar.</li>
 </ul>
 
-<b>MELHORIAS<b><br />
+<b>MELHORIAS</b><br />
 <ul>
   <li>Implementar uso de Redux</li>
   <li> Testar a componentização </li>
