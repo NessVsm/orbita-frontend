@@ -1,0 +1,21 @@
+.user-img {
+  width: 300px;
+  float: right;
+  height: 40px;
+  margin-top: -5vh;
+  display: flex;
+  margin-right: -18vw; }
+
+#user-profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; }
+
+@media only screen and (min-width: 320px) {
+  .user-img {
+    display: none; } }
+
+@media only screen and (min-width: 768px) {
+  .user-img {
+    display: block;
+    margin-right: -12vw; } }

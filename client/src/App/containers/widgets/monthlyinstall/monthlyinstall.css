@@ -1,0 +1,36 @@
+.monthly-install {
+  background-color: #eb4034;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(-90deg, #ca8be0, #8fb0ff);
+  width: 28vw;
+  height: 32vh;
+  flex-direction: column;
+  margin: 1vw;
+  padding: 20px;
+  color: #fff; }
+
+.monthly-install-title {
+  font-weight: bold; }
+
+#title {
+  font-weight: bold;
+  margin-bottom: 35px; }
+
+.months {
+  text-align: left;
+  margin-top: 10px; }
+
+@media only screen and (min-width: 320px) {
+  .monthly-install {
+    width: 90vw;
+    height: 45vh;
+    display: block;
+    margin-bottom: 5vh; } }
+
+@media only screen and (min-width: 768px) {
+  .monthly-install {
+    width: 28vw;
+    height: 32vh;
+    flex-direction: column;
+    margin: 1vw;
+    padding: 20px; } }

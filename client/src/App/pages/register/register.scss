@@ -1,0 +1,206 @@
+$color_1: #fff;
+$color_2: rgba(0, 0, 0, 0.13);
+$color_3: #f8f8f8;
+$color_4: #2e2e69;
+$color_5: #6464e3;
+$color_6: #343461;
+$color_7: #343461;
+
+.register-welcome-text p {
+  color: #343461;
+  font-size: 4em;
+  font-weight: 200;
+}
+.colorful-icon-register {
+  width: 44vw;
+}
+.register-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.register-info {
+  flex-direction: column;
+  width: 50vw;
+  background: $color_3;
+  height: 93vh;
+}
+
+.register {
+  width: 35vw;
+  height: 80vh;
+  margin: 40px auto;
+  background: $color_1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 0px 10px $color_2;
+  -moz-box-shadow: 0px 0px 10px $color_2;
+  -webkit-box-shadow: 0px 0px 10px $color_2;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 576px) {
+  .register-page {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+  }
+  .register {
+    width: 90vw;
+    display: block;
+    height: 54vh;
+  }
+
+  .register-info {
+    display: block;
+    width: 100vw;
+    background: $color_3;
+    height: 93vh;
+  }
+  #colorful-icon-register {
+    width: 80vw;
+  }
+  .register input[type='text'],
+  .register input[type='password'],
+  .register input[type='email'] {
+    width: 80vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .register-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .register {
+    width: 45vw;
+    height: 40vh;
+    flex-direction: column;
+  }
+
+  .register .inner-wrap {
+    height: 65vh;
+    padding: 30px;
+    padding-top: 10px;
+    background: $color_3;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .section span {
+    background: $color_4;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 4px solid $color_1;
+    font-size: 14px;
+    margin-left: -45px;
+    color: $color_1;
+    margin-top: -3px;
+  }
+
+  .section {
+    font: normal 20px 'Bitter', serif;
+    color: $color_5;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  .register h1 {
+    font: normal 35px 'Bitter', serif;
+    background: $color_6;
+    padding: 20px 30px 15px 30px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: $color_1;
+    border: 1px solid $color_6;
+  }
+  .register h1 > span {
+    display: block;
+    margin-top: 2px;
+    font: 13px Arial, Helvetica, sans-serif;
+  }
+
+  .register input[type='text'],
+  .register input[type='password'],
+  .register input[type='email'] {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 30vw;
+    padding: 0.5vh;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border: 2px solid $color_3;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+  }
+  .register input[type='button'],
+  .register input[type='submit'] {
+    background: $color_5;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: $color_1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Bitter', serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid $color_5;
+    font-size: 15px;
+  }
+
+  .btn-submit {
+    margin-top: 2vh;
+  }
+  .register-info {
+    flex-direction: column;
+    width: 50vw;
+    background: $color_3;
+    height: 93vh;
+  }
+  #colorful-icon-register {
+    width: 44vw;
+  }
+  .register input[type='text'],
+  .register input[type='password'],
+  .register input[type='email'] {
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .register .inner-wrap {
+    height: 40vh;
+  }
+}
+
+@media only screen and (min-width: 120px) {
+  .register .inner-wrap {
+    height: 65vh;
+  }
+}
+
+@media only screen and(min-width:768px) {
+  #colorful-icon {
+    width: 7vw;
+    margin-left: 5.5vw;
+  }
+}
+
+@media only screen and(min-width:1024px) {
+  #colorful-icon {
+    width: 2vw;
+    margin-left: 5.5vw;
+  }
+}

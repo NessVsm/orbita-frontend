@@ -1,0 +1,10 @@
+.widgets {
+  display: flex; }
+
+@media only screen and (min-width: 320px) {
+  .widgets {
+    display: block; } }
+
+@media only screen and (min-width: 768px) {
+  .widgets {
+    display: flex; } }

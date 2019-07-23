@@ -1,0 +1,49 @@
+.most-expensive {
+  background-color: #eb4034;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(-90deg, #42f590, #46e0d1);
+  width: 28vw;
+  height: 32vh;
+  flex-direction: column;
+  margin: 1vw;
+  padding: 20px;
+  color: #fff; }
+
+#title {
+  font-weight: bold;
+  margin-bottom: 35px; }
+
+#most-expensive-zipcode-title {
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold; }
+
+#most-expensive-zipcode-info {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 1.2em; }
+
+#most-expensive-value-title {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px; }
+
+#most-expensive-value-info {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 1.2em; }
+
+@media only screen and (min-width: 320px) {
+  .most-expensive {
+    width: 90vw;
+    height: 45vh;
+    display: block;
+    margin-bottom: 5vh; } }
+
+@media only screen and (min-width: 768px) {
+  .most-expensive {
+    width: 28vw;
+    height: 32vh;
+    flex-direction: column;
+    margin: 1vw;
+    padding: 20px; } }

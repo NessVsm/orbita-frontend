@@ -1,0 +1,10 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  background: #5c5c76; }
+
+@media only screen and (min-width: 320px) {
+  .dashboard {
+    height: 225vh; } }

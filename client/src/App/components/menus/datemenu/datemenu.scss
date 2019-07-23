@@ -1,0 +1,19 @@
+$cor_1: #fff;
+$cor_2: #aba9a9;
+
+.date-menu {
+  margin-top: 4vh;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $cor_2;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: $cor_1;
+}
